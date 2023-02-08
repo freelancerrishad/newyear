@@ -1,0 +1,156 @@
+/* header start */
+header{
+    background-image: url(../images/banner3.png);
+    width: 100%;
+    height: 608px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+    text-align: right;
+}
+.extra{
+    width: 70%;
+}
+.right-side-header{
+    width: 30%;
+}
+.header-tag{
+    width: 400px;
+    text-align: right;
+    font-size: 50px;
+}
+.header-paragraph{
+    width: 400px;
+    text-align: right;
+}
+.header-btn{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+    margin-right: 30%;
+    font-weight: bolder;
+}
+
+/* header end */
+
+/* failure section start */
+
+#failure{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.failure-right{
+    margin-top: 250px;
+}
+.section-failure-header{
+    width: 400px;
+    text-align: left;
+    font-size: 50px;
+}
+.failure-p{
+    width: 300px;
+}
+.failure-right ul{
+    list-style-type: '✓';
+}
+
+/* failure section start */
+
+/* my plan start */
+
+#my-plan{
+    margin-top: 50px;
+}
+
+.my-plan-header{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.plans{
+    display: flex;
+    justify-content: space-evenly;
+}
+.plans-overview{
+    text-align: center;
+}
+/* my plan end */
+
+/* mindset start */
+
+#mindset{
+    background-image: linear-gradient(to right, #005FAC, rgba(0, 95, 172, 0)), url(../images/watch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    padding-top: 10%;
+
+}
+
+#mindset h1{
+    margin-left: 150px;
+    color: white;
+    width: 15%;
+}
+
+.mindset-btn{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+    margin-left: 150px;
+    font-weight: bolder;
+}
+/* mindset end */
+
+/* footer */
+
+footer{
+    margin-top: 50px;
+    background-color: black;
+    height: 290px;
+    padding: 30px 200px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p{
+    width: 30%;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+}
+.social img{
+    width: 30px;
+}
+input{
+    border: none;
+    background: none;
+    border: 1px solid white;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+}
+
+.footer-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #005FAC;
+}
